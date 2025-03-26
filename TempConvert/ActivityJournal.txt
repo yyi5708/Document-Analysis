@@ -1,0 +1,24 @@
+SWEN-250 Activity Reflection:
+
+Name: Muhammad Yousaf Iqbal
+
+Start Part 1:
+Estimated Time: 00 30
+Plan: Order Of Implementation, Testing Approch, etc.
+Implement Function To Return The Correct Output As Per Assignment, Testing The Function When Completed, Fix All Compile Errors, Make Sure The Functions Work As Expected.
+
+Complete:
+Actual Time: 00 15
+Observations: Lessons Learned, Problems Encountered, Obstacles Overcome, etc.
+Working Slowly and Compiling Every So Often and Fixing Errors, There were some errors during compile, but they were simple mistakes that I made and were easy to fix, there were not any major obstacles during the assigment, just took some time.
+
+Start Part 2:
+Estimated Time: 00 30
+Plan: Order Of Implementation, Testing Approch, etc.
+Implement The Same Function Again (copy and paste), but this time just change the values of the function to floating point variables, Testing the function when completed, implement function to return the correct output as per assignment, Making sure the function works as expected.
+
+Complete:
+Actual Time: 00 15
+Observations: Lessons Learned, Problems Encountered, Obstacles Overcome, etc.
+Working slowly and compiling every so often and fixing errors, Some errors during compile but easily fixable, no major obstacles, but just took some time.
+

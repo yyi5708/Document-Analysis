@@ -1,0 +1,26 @@
+SWEN-250 Activity Reflection
+Name: Muhammad Yousaf Iqbal
+================================================================
+Part 1
+Estimated Time	HH MM: 01 00 , 5 Errors
+Plan:
+(Order of implementation, testing approach, etc.)
+Implement the function as per instruction, slowly implement, test the function frequently, and fix any compile errors.
+Complete
+Actual Time	HH MM: 00 30 , 3 Errors
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+No major problems or obstacles, was alright to implement, got some help on it, and helped me to fully implement it, just took some time.
+================================================================
+Part 2
+Estimated Time	HH MM: 01 00 , 5 Errors
+Plan:
+(Order of implementation, testing approach, etc.)
+Implement the function to instruction, test the function every so often, fix any errors on compile.
+Complete
+Actual Time	HH MM: 00 30 , 3 Errors
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+On this part I did have some problems, so the function did work, but it was not saving the longest line from user input and not returning the line back, it was just doing a copy and paste output of longest_with_tests.c, I got some help on this and eventually fixed it by implementing the main. I didnt fully read the instructions and didnt even see that main was empty and that I had to implement it. Fault on my end, but I fixed the and it functioned as expected, it was saving the longest line from user input and not returning it. That was the major obstacle and problems, and some errors, but easily fixable, and ran as expected.
+================================================================
+

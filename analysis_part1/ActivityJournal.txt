@@ -1,93 +1,103 @@
+
 SWEN-250 Document Analysis Journal
-
 Implement these functions in the order below.
-
 Your name: Muhammad Yousaf Iqbal
 
 ================================================================
+
 create_node
-Start 
-Estimated Time	01:00
-Plan: Study pointers and structs and their operations
-Write the function, compile and debug
-See if the tests pass and debug again
-(Order of implementation, testing approach, etc.)
-
-Complete 
-Actual Time	01:30
-Observations: I was getting pointers wrong all this time 
-but studying again helped to intuitively understand them better.
-Thankfully tests passed at the first go.
-(Lessons learned, problems encountered, obstacles overcome, etc.)
-
-
-================================================================
-add_node_at_head
-Start 
-Estimated Time  00:30
-Plan:Write and debug compile errors
-Debug again if tests don't work
-(Order of implementation, testing approach, etc.)
-
-Complete
-Actual Time    01:00
-Observations: Seg fault error was the hardest one to get rid of.
-Otherwise the coding part went smooth. I realised I was getting the Seg fault
-because I did not do a null check before entering the word through strlen.
-(Lessons learned, problems encountered, obstacles overcome, etc.)
-
-================================================================
-clear_linked_list
-Start 
-Estimated Time 00:30
+Start
+Estimated Time	00 30
 Plan:
-Plan:Write and debug compile errors
-Debug again if tests don't work
-(Order of implementation, testing approach, etc.)
-
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
 Complete
-Actual Time	00:20
-Observations: I got bus error quite a few times. Had to work on
-my code by pinpointing which unit test was failing and why. 
-I used print statements to locate what worked and what did not.
-(Lessons learned, problems encountered, obstacles overcome, etc.)
-
+Actual Time	01 00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) Need to work faster, but type slower, because there were lots of typos LOL, simple/easy to fix problems/errors/warnings that popped up during compiling, but the function is working 100% correct and passing all the tests. Just took a while, more than expected. I had to get familiar with the program, so I was a bit slow off the start, and ran into lots of problems, but all is good now.
 
 ================================================================
+
+valid_parameters
+Start
+Estimated Time	00 15
+Plan:
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
+Complete
+Actual Time     00 30
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) Easy ass function, all you had to do was use a bunch of if statements and return values as respected, had no errors, went flawlessly first try, all the tests passed, etc. The times are off because I got a little distracted, and was fixing other things, etc.
+
+================================================================
+
+add_node_at_head
+Start
+Estimated Time	00 30
+Plan:
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
+Complete
+Actual Time	01 00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) A little more complex function, had to use the past 2 functions to complete this function, thankfully everything works correctly and passed all tests. Got a little confused on the heads/tails part and when which equals what, etc. Also had some typos, errors, warnings, but all were fixed, nothing major, etc. The tests passed for this function, but it says 1 test failed on the same function, but it was meant for the next function, so I was confused by that.
+
+================================================================
+
+clear_linked_list
+Start
+Estimated Time	01 00
+Plan:
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
+Complete
+Actual Time	02 00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) Def the more hard/complex function to code, I kept on getting this wierd error saying "free(): double free detected in tcache 2 Aborted", after some searching I found out I was using the free() function too many times on the same thing which led to the tests failing and aborting. I was stuck on this function for a long time, more than 2 hours, and I did get some errors/warnings due to I kept messing up where the pointers would point to of p_list -> ... . After some time and debugging, I got the function to work properly and ran make and ./test and all the test passed finally.
+
+================================================================
+
 add_node_after_current
 Start
-Estimated Time	01:00
+Estimated Time	01 00
 Plan:
-Write and debug compile errors
-Be sure to check for null stuff
-Debug again if tests don't work
-(Order of implementation, testing approach, etc.)
-
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
 Complete
-Actual Time     01:00
-Observations: This went smoothly because I worked slowly and carefully.
-Compiled at first go and passed tests.
-(Lessons learned, problems encountered, obstacles overcome, etc.)
-
+Actual Time	02 00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) Another complex and hard function to code, similar to the last 2 functions, and just combining them all together. I did encounter errors/warnings throughout the function during compile cause of typos and setting the p_list -> do the right value, kept getting it mixed around, but eventually got all of it to the correct values, etc. Just have to be more precise, I type fast so yeah. Overall, the function did compile at make and all tests passed.
 
 ================================================================
+
+get_current_word
+Start
+Estimated Time	00 15
+Plan:
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
+Complete
+Actual Time	00 30
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) Pretty easy function, simple to implement and just had to check if the value was equal to NULL and return NULL as a result. Then to get the current word, return the pointer to the word in the current. Returns the word as a result. Function compiles with on errors/warnings and all tests passed. I also had to edit the linked_list_functions.h file and had to add the one_word struct to it, got this wierd error where it didnt recognize that it was there for some reason.
+
+================================================================
+
+get_previous_word and get_next_word
+Start
+Estimated Time	00 25
+Plan:
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
+Complete
+Actual Time	00 50
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) Pretty simple functions, both were identically the same, just had to change values of p_previous and p_next, etc. Simple to implement, no issues at all. No errors/warnings at compile, and all the tests passed. Overall, it was easy, and went smooth.
+
+================================================================
+
 find_word
 Start
-Estimated Time	01:00
+Estimated Time	00 25
 Plan:
-Write and debug compile errors
-Be sure to check for null stuff
-Debug again if tests don't work
-
-(Order of implementation, testing approach, etc.)
-
+(Order of implementation, testing approach, etc.) Same process as for all of the assignments when starting, read it, analyze it, code it, and test it, and move on.
 Complete
-Actual Time	03:00
-Observations:   I had to write the cases down and prepare
-a structure for it on paper. Then I translated it into code
-and compiled it in one go. One test failed, I reconsidered that case
-and rewrote. All tests passed!
-(Lessons learned, problems encountered, obstacles overcome, etc.)
-
+Actual Time	00 50
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.) I had a lot of difficulty on this function, for some reason I kept getting a segmentation fault for no apparent reason, I checked each line 1 by 1, and there was nothing wrong. The times are def wrong, I lost track, but the seg fault never went away. I finally decided to just use if statements and || to return -1 for any of the described conditions if it occurs, individually instead of calling the function called valid_parameters. Sure enough, when I went to run make and ./test , no more segmentation fault and all my tests passed, 73 tests passed, 0 tests failed. I dont know why it was doing that, what I wrote out in those if statements is the same thing as the whole function of valid_parameters. The function cant be wrong because it was all the units tests so im guessing it was some sort of bug in the system or just a glitch. I restarted my device and it still occured, so it wasnt a problem on my end. The seg fault and debugging it took a lot of time, more than writing the whole function. Overall, the function was straight forward and just had to keep track of the result number and update the node (->) and return the correct value. Had some errors and warnings due to typos and such and setting the node to the wrong position, but its done now, fianlly. 
 
 ================================================================
+

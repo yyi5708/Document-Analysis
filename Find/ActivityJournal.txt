@@ -1,0 +1,18 @@
+SWEN-250 Activity Reflection
+
+Name: Muhammad Yousaf Iqbal
+
+================================================================
+
+Start
+
+Estimated Time	08 00
+
+Plan: Complete one function one by one, and run make and the testfile to make sure that functions passes the test itself, then work on another function and test it until all functions are completed and passing tests. Summary, complete 1 function, test it, it it passes, work on next function and repeat the process, it if fails, fix the errors, and test it again, and if it passes, repeat, etc. Seems pretty simple, just gonna take some time to do it and understand it.
+Complete
+
+Actual Time	04 00
+
+Observations: Totally different outcome, encountered lots of errors, tests were failing/assertions fails, etc. It took me a while to work on the functions and make sure they past the tests. The time it took me might be wrong, I forgot because I worked on this assignment in parts, I didn't complete the assignment all in 1 day, like I split it up over the days/break. I had completed the assignment on Sunday, but I didnt sumbit until today which is Monday, and it was due yesterday. Mistake on my end, I thought I had pushed, but when I checked this morning I realized I didnt submit the assignment, sorry. This assignment was hard, but with some time, online help, and peer help, I got it finally.
+
+================================================================

@@ -1,0 +1,39 @@
+SWEN-250 Activity Reflection
+
+Name: Muhammad Yousaf Iqbal
+
+================================================================
+Implement code to pass all unit tests
+
+Estimated Time	04 00
+Plan:
+(Order of implementation, testing approach, etc.)
+Implement all functions as per instruction, test each function frequently, fixing any compile errors, and making sure the unit tests past, etc.
+
+Complete
+Actual Time	02 00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+Had issues with the code and there were compile errors with some of the function because of unused variables, forgetting ";". etc. Simple mistakes, but the functions were also not passing and only half of tests passed, it was not reading the file right and was including [], and not reading right like the new line thing, I had to refix the function, and the issues was i was using [i += 1] which would result in all the tests not passing, but I changed it to [i ++] and now they all passed, I dont know why tho because those 2 are the same operations, but that was the main problem. All tests passed.
+
+================================================================
+Test correct operation from the command line
+
+Estimated Time	02 00
+Plan:
+(Order of implementation, testing approach, etc.)
+Run the functions I created from the command line via the run lines provided in the assignment, make sure everything matches up and the output is correct and matches as expected.
+
+Complete
+Actual Time	01 00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+When I ran the commands, nothing happended, I thought maybe I did something wrong or what, but nothing was working. I asked via discord and got help as to there would be nothing returning on the line, rather in the file, there would be some changes made, and yes that I saw it did work. Just a slight problem, but now I get it.
+
+================================================================
+
+Continuous Integration With Gitlab (CI)
+
+Output: Status, passed, 00:00:22, 6 minutes ago. Pipeline, Update .gitlab-ci.yml file, #138720, main, 3ee5e030, Muhammad Y. Iqbal (RIT Student), latest.
+
+Note: So i think i messed my repo up because git was saying something about fetch, pull, merge, etc. and I dont know if everything is fixed now? I mean all my files are being pushed to GitLab and I see it there, but I dont know if I messed anything else up. It all started when I did the CI thing in the assigment and did the CI/CD config, I copy and pasted the file into the editor and it says it passed, so im guessing its right?

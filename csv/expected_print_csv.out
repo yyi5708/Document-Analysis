@@ -1,0 +1,14 @@
+Test printing header line and data line when both have 4 fields
+Col 1 = d
+Col 2 = e
+Col 3 = f
+Col 4 = g
+Test printing when data line has only 3 fields
+Col 1 = a
+Col 2 = b
+Col 3 = c
+Test printing when data line has 5 fields
+Col 1 = s
+Col 2 = t
+Col 3 = u
+Col 4 = v

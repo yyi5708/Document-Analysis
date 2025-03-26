@@ -1,0 +1,84 @@
+Please create a Sept21 directory in your repository and submit this file with
+your answers to that folder. Please upload any screenshots to that same folder.
+
+-------------------------------------------------------------------------------
+
+Your name:
+
+Muhammad Yousaf Iqbal
+
+Your username (e.g. abc1234):
+
+yyi5708
+
+Laptop or Lab Windows PC?
+
+Laptop
+
+Refer to the link Get MAC address and copy that address here: 
+
+Physical Address    Transport Name
+=================== ==========================================================
+A0-36-BC-2E-B9-77   Media disconnected
+14-5A-FC-7B-4A-D9   \Device\Tcpip_{659869A5-BA4A-4719-9433-DD2A6DC49033}
+
+If laptop what operating system (e.g. Windows 10, macOS Monterey):
+
+Windows 11
+
+If laptop what WiFi network are you using (e.g. eduroam)?
+
+eduroam
+
+Type of connection attempt to hamilton (e.g. ssh with password, ssh with ssh key pair):
+
+yyi5708@hamilton.se.rit.edu
+
+Were you able to connect successfully?
+
+Yes
+
+How many tries did it take for you to connect and how long did it take to connect?
+
+1 Try/Take
+Less Than 5 Seconds
+
+From a separate terminal windown on your system please do the following:
+
+ping hamiton.se.rit.edu
+Use control-c to stop the ping after about 10 responses. Please copy/paste
+the ping results into this document:
+
+Pinging hamilton.se.rit.edu [129.21.30.7] with 32 bytes of data:
+Reply from 129.21.30.7: bytes=32 time=2ms TTL=62
+Reply from 129.21.30.7: bytes=32 time=12ms TTL=62
+Reply from 129.21.30.7: bytes=32 time=11ms TTL=62
+Reply from 129.21.30.7: bytes=32 time=11ms TTL=62
+Ping statistics for 129.21.30.7:
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+Minimum = 2ms, Maximum = 12ms, Average = 9ms
+
+PING hamilton.se.rit.edu (129.21.30.7) 56(84) bytes of data.
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=1 ttl=64 time=0.010 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=2 ttl=64 time=0.023 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=3 ttl=64 time=0.022 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=4 ttl=64 time=0.025 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=5 ttl=64 time=0.028 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=6 ttl=64 time=0.029 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=7 ttl=64 time=0.023 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=8 ttl=64 time=0.054 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=9 ttl=64 time=0.026 ms
+64 bytes from hamilton.se.rit.edu (129.21.30.7): icmp_seq=10 ttl=64 time=0.044 ms
+^C
+--- hamilton.se.rit.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9193ms
+rtt min/avg/max/mdev = 0.010/0.028/0.054/0.011 ms
+
+Once on hamilton please compile and run any code that you have working.
+Did you have good responses to running your code? If not, provide details.
+Yes
+
+Any other comments or observations (screenshots are helpful if you had a problem)?
+No
+

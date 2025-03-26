@@ -1,0 +1,19 @@
+SWEN-250 Activity Reflection
+
+Name: Muhammad Yousaf Iqbal
+
+================================================================
+
+Start
+
+Estimated Time	06 00
+
+Plan: Follow the setup directions, after all that, examine all the files and look at what needs to be done. Work 1 function at a time and keep saving it and testing it with make and ./test_filter every so often to make sure the function passes and works as intended. Work 1 by 1 and work slowly, not in a rush, have a lot of time till assignment is due. Use resources that are avaiable for help and so fourth, etc.
+
+Complete
+
+Actual Time	03 00
+
+Observations: There were lots of errors and problems I ran into when completing the assignment because the functions that I created were not right and the tests/assertions were failing and not passing as a result. Lots of issues I ran into, but 1 by 1, I solved the errors present with each individual function and they all were clear of errors and all tests and assertions passed finally after some time. Def was a struggle and took some time, but with enough effort, time, and help, I was able to complete the assignment and have everything pass the tests and assertions. Overall, time is the key to success.
+
+================================================================

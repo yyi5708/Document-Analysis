@@ -1,0 +1,11 @@
+SWEN - 250 Activity Reflection:
+Name: Muhammad Yousaf Iqbal
+Part 2 (Part 1 not required):
+Estimated Time:	02 00
+Plan: (Order of implementation, testing approach, etc.)
+Implement functions as per assigment, follow the instructions, testing the function frequently, fixing any errors on compile, etc.
+Complete:
+Actual Time: 01 00
+Observations: (Lessons learned, problems encountered, obstacles overcome, etc.)
+Fixed any errors, couple problems when writing the program, but easily fixable, no major obstacles, a little tricky with gdb and the whole process, but eventually got it. gdb is really helpful and made the assignment really easy and understanding.
+Note: Fixed part 1 as in upper bound being locked to 50 regardless of input, my mistake, commented it out, not it works as expected, I am stuck on the Makefile where you said 3 instances of prime were not converted to prime_standard? I followed the instructions as to what to do with the MakeFile and all I had to do was change the file name and the name to prime_standardc from prime.c, etc. Stuck on that part, but else is good.

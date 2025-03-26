@@ -22,27 +22,27 @@ static void exit_on_null( void *pointer, int test_number )
 
 // Simple boolean assert function for unit testing
 // DO NOT MODIFY THIS FUNCTION
-int assert( int test_result, char error_format[], ... ) {
-	va_list arguments ;
-	static int test_number = 1 ;
-	int result = 1 ;	// return 1 for test passed or 0 if failed
-	
-	if ( ! test_result ) {
-		va_start( arguments, error_format ) ;
-		printf( "Test # %d failed: ", test_number ) ;
-		vprintf( error_format, arguments ) ;
-		printf( "\n" ) ;
-		result = 0 ;
-	}
-	test_number++ ;
-	return result ;
-}
+//int assert( int test_result, char error_format[], ... ) {
+//	va_list arguments ;
+//	static int test_number = 1 ;
+//	int result = 1 ;	// return 1 for test passed or 0 if failed
+//	
+//	if ( ! test_result ) {
+//		va_start( arguments, error_format ) ;
+//		printf( "Test # %d failed: ", test_number ) ;
+//		vprintf( error_format, arguments ) ;
+//		printf( "\n" ) ;
+//		result = 0 ;
+//	}
+//	test_number++ ;
+//	return result ;
+//}
 
 //////////////////////////////////////////////////////////////////////////
 // Begin unit tests //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 
-int test()
+int test_linked_list_functions()
 {
 	int passcount = 0 ;
 	int failcount = 0 ;

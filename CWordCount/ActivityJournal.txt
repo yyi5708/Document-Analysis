@@ -1,0 +1,11 @@
+SWEN - 250 Activity Reflection:
+Name: Muhammad Yousaf Iqbal
+Start:
+Estimated Time:	01 00 - 02 00
+Plan: (Order of implementation, testing approach, etc.)
+Implement the funciton as per assignment and follow steps, Testing the function every section, and fixing any errors on compile, slowly implement the function, and troubleshoot as going along.
+Complete:
+Actual Time: 02 00 - 04 00
+Observations: (Lessons learned, problems encountered, obstacles overcome, etc.)
+Seg fault error, was stuck, but got help via discord and eventually solved the issue, had to rework the function and change the way I ran the function on the command line, compile errors as usual but got those fixed, etc. The seg fault was a major obstacle and I thankfully got it fixed.
+Note For Grader: (Dan), you said "ritwc.c = 1/15 - ritwc.c compiles but seg faults due to file calls. Use getchar() to read from stdin", however this is false. When I ran wc < DarkAndStormyNight.txt and/or ./ritwc DarkAndStormyNight.txt , I got the correct output as per assignment. I think you are running the function wrong and using ./ritwc < DarkAndStormyNight.txt which does result in seg fault, but the function works and I should have gotten a way better grade than 1/15 (atleast 12 or so), makes no sense.

@@ -1,0 +1,24 @@
+SWEN-250 Activity Reflection
+
+Name: Muhammad Yousaf Iqbal
+
+================================================================
+
+Start
+
+Estimated Time	04 00
+
+Plan:
+
+Implement functions, complete functions as per requirements, update all the files with correct variables/parameters, update main.c, read.data.h, and implement/complete function read.data.c as per instructions, and create the Makefile to make sure the functions run/compile as expected, etc. Just take it slow, no rush, have over 1 week + to finish this assignment.
+
+Complete
+
+Actual Time	02 00
+
+Observations:
+
+Took a while to complete assignment, issues with the read.data.c file with the read_data function, had over 20 errors, had to redo the whole thing, and I eventually got the errors down to less than 10, and then all the errors were on the read.data.h file and there were no "//" in place for the instructions and it was throwing up all these errors, easy fix and had 0 errors, mistyped parameter in read.data.h and main.c causing it to fail, simple fix, no more errors, created the Makefile and had some issues with creating/formatting it because it was my 2nd time creating one, had to look past at other assignment and see how it was setup, and I got it eventually, ran the make with test_pointers and everything complied and was up to date as per terminal, and it created the test_pointers file. I dont know what to do after that, the last instructions were to create the Makefile and make sure it creates the executable file test_pointers which it did, but now what, thats all?
+
+================================================================
+EDIT 10/05/2023: So the past function I used worked but it was not picking up the floating point value at all and the integer value at all as well. I have no clue why but ive tried everything and have completely redone the function 2 times, and even after the lecture today, I still dont get it. Pointers is just new to me, never had any experience with it, I dont know what to do. When testing from ./test_pointers and inputting either of the 3 examples provided, it will only return the letter and then for the integer it would print a totally different number than it was there and the float value would always be 0. No clue why, I just quit, Ive been on this assigment for a total of 6 hours or even more total. Sorry.

@@ -1,0 +1,24 @@
+image:
+  name: kalrabb/docker-swen-250-identifier-convention-chkr-img:latest
+
+variables:
+  PROJECT_FOLDER: csv
+  BUILD_CMD: gcc -o test -g -Wall csv.c unit_tests.c
+  RUN_CMD: valgrind --leak-check=full ./test
+  IDENT_NAME_CHKR: python3 check_identifiers.py /builds/$CI_PROJECT_PATH/$PROJECT_FOLDER
+before_script:
+  - cat /etc/lsb-release
+  - which gcc
+  - which g++
+  - which valgrind
+  - which make
+  - cd $PROJECT_FOLDER
+
+testrunner:
+  script:
+    - $BUILD_CMD
+    - $RUN_CMD
+    - cd /identifier_convention_checker
+    - pwd
+    - $IDENT_NAME_CHKR
+  stage: test
